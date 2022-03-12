@@ -7,4 +7,7 @@ const CapApplovinMax = registerPlugin<CapApplovinMaxPlugin>('CapApplovinMax', {
 });
 
 export * from './definitions';
+export * from './banner/index';
+export * from './interstitial/index';
+export * from './shared/index';
 export { CapApplovinMax };
